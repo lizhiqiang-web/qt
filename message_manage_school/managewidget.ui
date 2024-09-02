@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageWidget</class>
+ <widget class="QMainWindow" name="ManageWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1236</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QTreeWidget" name="treeWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <column>
+         <property name="text">
+          <string>管理</string>
+         </property>
+        </column>
+        <item>
+         <property name="text">
+          <string>个人信息</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>学生信息</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>老师信息</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>职工信息</string>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>考核成绩</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>学生成绩</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>老师成绩</string>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>工资</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>老师工资</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>职工工资</string>
+          </property>
+         </item>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="page0"/>
+        <widget class="QWidget" name="stu_msg">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QPushButton" name="updata_smsg">
+              <property name="text">
+               <string>修改</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="del_smsg">
+              <property name="text">
+               <string>删除</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="add_msg">
+              <property name="text">
+               <string>添加</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="find_sid">
+              <property name="text">
+               <string>学号：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="id_edt"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="find_name">
+              <property name="text">
+               <string>姓名：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="name_edt"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="find_smeg">
+              <property name="text">
+               <string>查找</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QScrollArea" name="scrollArea">
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1031</width>
+               <height>546</height>
+              </rect>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QTableWidget" name="tableWidget">
+                <column>
+                 <property name="text">
+                  <string>学号</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>姓名</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>性别</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>电话</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>身份证</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>家庭地址</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>微信</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>QQ</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tch_msg"/>
+        <widget class="QWidget" name="work_msg"/>
+        <widget class="QWidget" name="stu_score"/>
+        <widget class="QWidget" name="tch_score"/>
+        <widget class="QWidget" name="tch_salary"/>
+        <widget class="QWidget" name="work_salary"/>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1236</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>treeWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
