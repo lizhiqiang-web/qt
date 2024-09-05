@@ -7,3 +7,10 @@
 ![V90$AOC5VMR)Y38Q0 G(~MX](https://github.com/user-attachments/assets/2de5a5fc-908a-4b54-b344-61c5192d8215)
 ![FJMWNRC8KLGM(`M@@{_3J(Y](https://github.com/user-attachments/assets/2f15a2cf-ab76-4437-9f02-ca66efdfa0a7)
 ![(098HLM@9$FKA3R)_LZRV0J](https://github.com/user-attachments/assets/6f3f06c8-d1d3-4f87-ad88-7adf792fe1d0)
+
+
+数据库部分表结构：
+
+
+
+![048G{Z5T$} M8Y77FMP6}I5](https://github.com/user-attachments/assets/9f3029ba-993c-45e8-a2b1-9fe2e184551d)
