@@ -1,0 +1,1 @@
+  -LC:/Windows/SysWOW64/mswsock.dll  -LD:/8266vscode_code/c++/boost_networt/charthome_server/lib  -ljsoncpp -lmswsock -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

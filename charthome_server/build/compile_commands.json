@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/8266vscode_code/c++/boost_networt/charthome_server/build",
+  "command": "C:\\PROGRA~1\\MINGW6~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/chat.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\chat.dir\\main.cpp.obj -c D:\\8266vscode_code\\c++\\boost_networt\\charthome_server\\main.cpp",
+  "file": "D:/8266vscode_code/c++/boost_networt/charthome_server/main.cpp",
+  "output": "CMakeFiles/chat.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/8266vscode_code/c++/boost_networt/charthome_server/build",
+  "command": "C:\\PROGRA~1\\MINGW6~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/chat.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\chat.dir\\src\\CServer.cpp.obj -c D:\\8266vscode_code\\c++\\boost_networt\\charthome_server\\src\\CServer.cpp",
+  "file": "D:/8266vscode_code/c++/boost_networt/charthome_server/src/CServer.cpp",
+  "output": "CMakeFiles/chat.dir/src/CServer.cpp.obj"
+},
+{
+  "directory": "D:/8266vscode_code/c++/boost_networt/charthome_server/build",
+  "command": "C:\\PROGRA~1\\MINGW6~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/chat.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\chat.dir\\src\\CSession.cpp.obj -c D:\\8266vscode_code\\c++\\boost_networt\\charthome_server\\src\\CSession.cpp",
+  "file": "D:/8266vscode_code/c++/boost_networt/charthome_server/src/CSession.cpp",
+  "output": "CMakeFiles/chat.dir/src/CSession.cpp.obj"
+},
+{
+  "directory": "D:/8266vscode_code/c++/boost_networt/charthome_server/build",
+  "command": "C:\\PROGRA~1\\MINGW6~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/chat.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\chat.dir\\src\\LogicSystem.cpp.obj -c D:\\8266vscode_code\\c++\\boost_networt\\charthome_server\\src\\LogicSystem.cpp",
+  "file": "D:/8266vscode_code/c++/boost_networt/charthome_server/src/LogicSystem.cpp",
+  "output": "CMakeFiles/chat.dir/src/LogicSystem.cpp.obj"
+},
+{
+  "directory": "D:/8266vscode_code/c++/boost_networt/charthome_server/build",
+  "command": "C:\\PROGRA~1\\MINGW6~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/chat.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\chat.dir\\src\\MsgNode.cpp.obj -c D:\\8266vscode_code\\c++\\boost_networt\\charthome_server\\src\\MsgNode.cpp",
+  "file": "D:/8266vscode_code/c++/boost_networt/charthome_server/src/MsgNode.cpp",
+  "output": "CMakeFiles/chat.dir/src/MsgNode.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+D:/8266vscode_code/c++/boost_networt/charthome_server/build/CMakeFiles/chat.dir
+D:/8266vscode_code/c++/boost_networt/charthome_server/build/CMakeFiles/edit_cache.dir
+D:/8266vscode_code/c++/boost_networt/charthome_server/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:\vscode\cmake\cmake-3.30.0-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\chat.dir/objects.a
+C:\PROGRA~1\MINGW6~1\mingw64\bin\ar.exe qc CMakeFiles\chat.dir/objects.a @CMakeFiles\chat.dir\objects1.rsp
+C:\PROGRA~1\MINGW6~1\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\chat.dir/objects.a -Wl,--no-whole-archive -o D:\8266vscode_code\c++\boost_networt\charthome_server\bin\chat.exe -Wl,--out-implib,libchat.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\chat.dir\linkLibs.rsp
